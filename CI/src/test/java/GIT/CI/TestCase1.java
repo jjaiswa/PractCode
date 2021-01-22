@@ -9,4 +9,13 @@ public class TestCase1 {
 		System.out.println("test data");
 	}
 
+	@Test
+	public void login() {
+		System.out.println("tlogging");
+	}
+	
+	@Test
+	public void logout() {
+		System.out.println("logout");
+	}
 }
